@@ -1,27 +1,15 @@
-public class KDNode {
-    public int x;
-    public int y;
-    public KDNode parent;
+/*public class KDNode{
+    public Bank bank;
+    public BankBrarnch bankBrarnch;
     public KDNode left;
     public KDNode right;
-    public boolean upSideDown;
-    public KDNode(int x , int y){
-        this.x = x;
-        this.y = y;
-        parent = null;
+    public boolean isBank;
+    public KDNode(Bank bank , BankBrarnch bankBrarnch , boolean isBank){
+        this.bank = bank;
+        this.bankBrarnch = bankBrarnch;
         left = null;
         right = null;
-    }
-
-    public KDNode(int x , int y , KDNode parent){
-        this.x = x;
-        this.y = y;
-        this.parent = parent;
-        left = null;
-        right = null;
-    }
-
-    public void setUpSideDown(boolean upSideDown) {
-        this.upSideDown = upSideDown;
+        this.isBank = isBank;
     }
 }
+*/
